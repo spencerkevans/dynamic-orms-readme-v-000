@@ -5,6 +5,7 @@ class Song
 
 
   def self.table_name
+    # pluralize method is provided by active_support/inflector library
     self.to_s.downcase.pluralize
   end
 
